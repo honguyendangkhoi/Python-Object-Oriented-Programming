@@ -57,7 +57,7 @@ class PRINT(diem):
         print(f"Ho va Ten: {self.hovaten}, Lop: {self.lop},", 
             f"Gioi tinh:{self.gioitinh}, STT: {self.stt}",
             f"\nDiem toan: {self.toan} \nDiem van: {self.van}",
-            f"\nDiem anh: {self.toan} \nDiem ly: {self.van}",
-            f"\nDiem hoa: {self.toan}",
+            f"\nDiem anh: {self.anh} \nDiem ly: {self.ly}",
+            f"\nDiem hoa: {self.hoa}",
             f"\nDiem TB: {dtb:.2f}, Xep loai: {self.xeploai()}")
 
