@@ -36,7 +36,7 @@ while not game_over:
     if guess not in chosen_word:
         print(f"letter {guess} is not in list\n")
         heart.remove("♡")
-        print(f"you have {len(heart)}*♡ left\n")
+        print(f"you have {"♡"*len(heart)} left\n")
 
     print(display)
     if "_" not in display:
