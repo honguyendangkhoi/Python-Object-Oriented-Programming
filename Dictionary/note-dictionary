@@ -1,0 +1,32 @@
+capitals = {
+    "France":"Paris",
+    "Germany":"Berlin",
+}
+
+travel_log={
+    "France":["Paris","Lille","Dijon"],
+    "Germany":["Berlin","Hamburg"],
+}
+
+print(travel_log["France"][1]) #dung index
+
+nested_list=["A","B",["C","D"]] #cụm bự ở ngoài là 1, cụ nhỏ trong là 2, rồi in
+
+print(nested_list[2][1])
+
+starting_dictionary = { "a": 9, "b": 8, } 
+
+final_dictionary = { "a": 9, "b": 8, "c": 7, }
+
+#dict tạo thì {} còn nếu gán giá trị cho nó thì có thể dùng []
+#khong the print dict[1] neu nhu dict co gia tri duoc
+starting_dictionary["c"]=7
+
+order = {
+    "starter": {1: "Salad", 2: "Soup"},
+    "main": {1: ["Burger", "Fries"], 2: ["Steak"]},
+    "dessert": {1: ["Ice Cream"], 2: []},
+}
+
+#co "" thi print phai co ""
+print(order["main"][2][0])
