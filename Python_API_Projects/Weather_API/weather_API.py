@@ -1,8 +1,8 @@
 import requests,smtplib, os
 from twilio.rest import Client
 
-account_sid="AC1108fb378ee9fff442294926fd293904"
-auth_token = "8109fddfe7b34ff840e5428c6ccc5b1a"
+account_sid=""
+auth_token = ""
 
 api_keys="2cdf31b7f1b2bc63a9e7facf8808d410"
 Endpoin_site="https://api.openweathermap.org/data/2.5/forecast"
@@ -26,9 +26,9 @@ for hour_data in data["list"]:      #mở từng dấu ngoặc vuông để truy
     if int(hour_check) < 700:
         will_rain=True
 if will_rain:
-    my_email="honguyendangkhoi@gmail.com"
-    password="pgdf azbt ycqt umia"
-    receive_email="dngkhoyy@gmail.com"
+    my_email=""
+    password=""
+    receive_email=""
     subject="Rainning Alert"
     msg=f"Subject: {subject}\n\n Bring Raincoat" #phai co Subject: 
 
@@ -42,7 +42,7 @@ if will_rain:
     client= Client(account_sid,auth_token)
     message=client.messages.create(
         to="",
-        from_="+19472215926",
+        from_="",
         body="Bring Umbrella",
     )
     print(message.status)

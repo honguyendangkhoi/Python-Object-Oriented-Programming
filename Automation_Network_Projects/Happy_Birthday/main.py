@@ -2,8 +2,8 @@ import smtplib, pandas, datetime,os,random
 
 connection=smtplib.SMTP("smtp.gmail.com")
 
-my_email="honguyendangkhoi@gmail.com"
-password="pgdf azbt ycqt umia"
+my_email=""
+password=""
 subject="Happy Birthday"
 
 connection.starttls()

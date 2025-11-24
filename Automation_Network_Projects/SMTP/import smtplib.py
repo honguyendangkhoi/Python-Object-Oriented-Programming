@@ -2,9 +2,9 @@ import smtplib
 from email.message import EmailMessage
 import mimetypes
 
-my_email="honguyendangkhoi@gmail.com"
-password="favx drjw ygaj vxyu"
-to_addrs="dngkhoyy@gmail.com"
+my_email=""
+password=""
+to_addrs=""
 subject="Test"
 body="Attached file"
 

@@ -3,9 +3,9 @@ import smtplib, datetime, random
 dt=datetime.datetime.now()
 week_day=dt.weekday()
 
-my_email="honguyendangkhoi@gmail.com"
-password="jywf zftw fcay aaet"
-receive_email="dngkhoyy@gmail.com"
+my_email=""
+password=""
+receive_email=""
 
 connection=smtplib.SMTP("smtp.gmail.com")
 connection.starttls()

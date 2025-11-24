@@ -24,9 +24,9 @@ for k,v in date_from_file.items():
 # thì mình lặp từng key và value trong cái file này
 # xong rồi mình in ra key = value cho dễ đọc
 
-my_email="honguyendangkhoi@gmail.com"
-password="jywf zftw fcay aaet"
-receive_email="dngkhoyy@gmail.com"
+my_email=""
+password=""
+receive_email=""
 
 connection=smtplib.SMTP("smtp.gmail.com")
 connection.starttls()

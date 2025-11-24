@@ -1,9 +1,9 @@
 import requests, smtplib, time
 from datetime import datetime
 
-my_email="honguyendangkhoi@gmail.com"
-password="jywf zftw fcay aaet"
-receive_email="dngkhoyy@gmail.com"
+my_email=""
+password=""
+receive_email=""
 Subject="Time Today"
 
 MY_LAT = 10.823099 # Your latitude
