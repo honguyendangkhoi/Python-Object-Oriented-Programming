@@ -92,7 +92,7 @@ for date, trend in trend_dict.items():
 
 # Nối tất cả message
 final_message = "\n".join(message_lines)
-msg.set_content(final_message)
+msg.set_content(final_message) #là nội dung của email thay cho \n\n 
 connection.send_message(msg)
 connection.quit()
 
